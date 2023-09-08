@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>PORTAFOLIO_1</title>
+    <link rel="stylesheet" href="estilo.css">           
+</head>
+<body>
+<div class="contenedor_header">
+ <header>
+<div class="logo">
+  <a href="#">Axsel Valency</Var></a>
+
+</div>
+<nav id ="nav" >
+    <ul>
+        <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+        <li><a href="#SOBREMI"onclick="seleccionar()">Sobre Mi</a></li>
+        <li><a href="#SKILLS"onclick="seleccionar()">SKILLS</a></li>
+        <li><a href="#curriculum"onclick="seleccionar()">CORRICULUM</a></li>
+        <li><a href="#PORTAFOLIO"onclick="seleccionar()">Portafolio</a></li>
+        <li><a href="#CONTACTOS"onclick="seleccionar()">Contacto</a></li>
+    </ul>
+</nav>
+<div class="nav-responsive" onclick="mostrarOcultarMenu()">
+    <i class="fa-solid fa-bars"></i>
+
+</div>
+ </header>
+
+
+</div>
+<!-- seccion de inicio /home-->
+<section id="inicio" class="inicio">
+    <div class="contenido-banner">
+    <div class="contenedor-img">
+        <img src="carpetaimg/hero.png" alt="">
+    </div>
+    <h1>Axsel Valency.H</h1>
+    <h2>PROGRAMADOR JUNIOR - DEVELOPER JUNIOR </h2>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+    </div>    
+
+</div>
+
+
+</section>
+<!-- seccion de sobre mi-->
+<section id="SOBREMI" class="sobremi">
+    <div class="contenido_seccion">
+        <h2>Sobre mi</h2>
+        <p><span>Hola,soy Axsel Valency Hancco.</span>un entusiasta programador junior con un amor apasionado por la creación de soluciones digitales. Mi viaje en el mundo de la programación ha sido un emocionante recorrido de aprendizaje constante y desafíos gratificantes.
+            Con una base sólida en [lenguajes o tecnologías relevantes], he trabajado en [proyectos o prácticas destacadas] que me han permitido desarrollar habilidades prácticas en la resolución de problemas y la colaboración en equipo. Mi enfoque es mezclar la creatividad con la lógica para encontrar soluciones eficientes y elegantes.
+            Aunque soy un programador junior, tengo la determinación de abordar desafíos complejos y aprender de cada experiencia. Valorizo la retroalimentación y la oportunidad de trabajar junto a mentores experimentados.
+            Estoy emocionado por unirme a un equipo que comparte mi pasión por la innovación y el crecimiento. Creo que mi actitud fresca y mi deseo de aprender pueden aportar una perspectiva única al equipo de [nombre de la empresa]. Espero con ansias la oportunidad de hablar más sobre cómo mis habilidades y energía pueden contribuir.
+            </p>
+
+            <div class="fila">
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                     <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            20-12-2002
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                             +51 933100222
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                             gabrielvalencyh@gmail.com
+                        </li>
+                        <li>
+                            <strong>nacionalidad</strong>
+                            Peruana
+                        </li>
+                        <li>
+                            <strong>Direccion</strong>
+                             Arequipa-Peru / Cerro Colorado - Victor Andres Belaunde                         
+                            
+                            </li>
+                       <li>
+                                <strong>Estado</strong>
+                                <span>Estudiante - Freelance
+                                </li></span>
+                        </li>
+                     </ul>
+                </div>
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-plane-departure"></i>
+                            <span>Viajes</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Musica</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-mug-saucer"></i>
+                            <span>coffe</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-video"></i>
+                            <span>Creador </span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-walking"></i>
+                            <span>Deportes</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Libros</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-microchip"></i>
+                            <span>Tecnologia</span>
+                        </div>
+                    </div>
+
+                </div>
+                 
+            </div>
+            <button>
+
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+              </button>
+    </div>
+</section>
+<!--skills-->
+<section class="skills" id="SKILLS">
+
+<div class="contenido-seccion">
+    <h2>Skills</h2>
+    <div class="fila">
+        <div class="col">
+            <h3>technical Skills</h3>
+            <div class="skill">
+                <span>Java</span>
+                <div class="barra-skill">
+                    <div class="progreso javascript">
+                        <span>80%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>HTML & CSS</span>
+                <div class="barra-skill">
+                    <div class="progreso htmlcss">
+                        <span>90%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>C#</span>
+                <div class="barra-skill">
+                    <div class="progreso csharp">
+                        <span>70%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Mysql server</span>
+                <div class="barra-skill">
+                    <div class="progreso mysql">
+                        <span>80%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Mongo db</span>
+                <div class="barra-skill">
+                    <div class="progreso mongo">
+                        <span>70%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Adobe apps</span>
+                <div class="barra-skill">
+                    <div class="progreso adobe">
+                        <span>50%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Windows oficce apps</span>
+                <div class="barra-skill">
+                    <div class="progreso windows">
+                        <span>90%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--professional skills-->
+        <div class="col">
+            <h3>Professional Skills</h3>
+            <div class="skill">
+                <span>Comunicacion efectiva</span>
+                <div class="barra-skill">
+                    <div class="progreso">
+                        <span>75%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Aprendizaje continuo</span>
+                <div class="barra-skill">
+                    <div class="progreso">
+                        <span>95%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>adaptabilidad</span>
+                <div class="barra-skill">
+                    <div class="progreso">
+                        <span>75%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>trabajo en equipo</span>
+                <div class="barra-skill">
+                    <div class="progreso">
+                        <span>75%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Creatividad</span>
+                <div class="barra-skill">
+                    <div class="progreso">
+                        <span>75%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Dedicacion</span>
+                <div class="barra-skill">
+                    <div class="progreso">
+                        <span>75%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Proyect Management</span>
+                <div class="barra-skill">
+                    <div class="progreso">
+                        <span>75%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+
+<!--curriculum-->
+<section id="curriculum" class="curriculum">
+<div class="contenido-seccion">
+<h2>Curriculum</h2>
+<div class="fila">
+    <div class="col izquierda">
+        <h3>Educacion</h3>
+        <div class="item izq">
+            <h4>Educacion Primaria</h4>
+            <span class="casa">Manuel Tapia Fuentes 40053 <br>/I.E.P Joule Cerro Colorado </span>
+            <br>
+            <span class="fecha">2008-2014</span>
+            <p></p>
+            <div class="conectori">
+                <div class="circuloi"></div>
+            </div>
+            
+             </div>
+             <div class="item izq">
+                <h4>Educacion Secundaria</h4>
+                <span class="casa">I.E.P Juilliard</span>
+                <span class="fecha">2015-2019</span>
+                <div class="conectori">
+                    <div class="circuloi"></div>
+                </div>
+
+                 </div>
+                 <div class="item izq">
+                    <h4>Educacion Superior</h4>
+                    <span class="casa">Universidad Tecnologica de Chihuahua [UTCH] MX</span>
+                    <br>
+                    <span class="fecha">2020-Baja Temporal(Post-Pandemia)</span>
+                    <p> Facultad:Ingenieria Mecatronica</p>
+                    
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                     </div>
+                     <div class="item izq">
+                        
+                        <span class="casa">Instituto Cibertec</span>
+                        <span class="fecha">2021-Cursando</span>
+                        <p>Facultad:Computacion e informatica /(5to ciclo)</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                         </div>
+
+    </div>
+
+    <div class="col derecha">
+        <h3>Experiencia Laboral</h3>
+        <div class="item der">
+            <h4>Administrado/Recepcionista </h4>
+            <span class="casa">Mirador Arequipa - Cerro Colorado</span>
+            <span class="fecha">2021</span>
+            <div class="conectori">   
+                <div class="circuloi"></div>
+            </div>  
+
+             </div>
+             <div class="item der">
+                <h4>Service Mecanica y Electricidad</h4>
+                <span class="casa">REMMANT V&H</span>
+                <span class="fecha">2022-2023</span>
+                <div class="conectori">
+                    <div class="circuloi"></div>
+                </div>
+                 </div>
+
+                 <div class="item der">
+                    <h4>Administrador/Recepcionista</h4>
+                    <span class="casa">HOSTEL KALIXTO - Cayma</span>
+                    <span class="fecha">2022</span>
+                  
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                     </div>
+                     <div class="item der">
+                        <h4>Freelance</h4>
+                        
+                        <span class="fecha">2023</span>
+                        <p>Fronted / Design ui-ux</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                         </div>
+
+    </div>
+
+
+</div>
+
+</div>
+
+
+</section>
+
+<!--portafio -por ahora no 
+-->
+<!--contacto-->
+<section id="CONTACTOS" class="contacto">
+  <div class="contenido-seccion">
+    <h2> CONTACTO</h2>
+    <div class="fila">
+        <!-- formulario-->
+        <div class="col">
+          <input type="text" placeholder="Tu Nombre">
+          <input type="text" placeholder="Numero Telefonico">
+          <input type="text" placeholder="Correo Electronico">
+          <input type="text" placeholder="Tema">
+           <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+           <button>
+            Enviar Mensaje<i class="fa-regular fa-paper-plane"></i>
+            <span class="overlay"></span>
+           </button>
+        </div>
+        <!--mapa-->
+        <div class="col">
+            <img src="carpetaimg/AREQUIPA-VOLCANES.jpg" alt="">
+            <div class="info">
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i>
+                         Peru-Arequipa-Arequipa     
+                    </li>
+                    <li></i><i class="fa-brands fa-whatsapp"></i>   
+                             Nro: +51-933100222  
+                   </li>
+                   <li><i class="fa-solid fa-envelope"></i></i>
+                            Email:Gabrielvalencyh@gmail.com
+               </li>
+                   
+                </ul>
+            </div>
+
+        </div>
+    </div>
+  </div>
+ 
+
+
+</section>
+
+<!--FOOTER-->
+<footer>
+
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+    </div>   
+
+</footer>
+
+
+
+
+
+
+
+</section>
+<script src="script.js"></script>
+</body>
+</html>
